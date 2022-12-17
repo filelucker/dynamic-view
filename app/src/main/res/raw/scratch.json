@@ -1,0 +1,81 @@
+{
+  "code": "200",
+  "message": "SUCCESS",
+  "data": [
+    {
+      "type": "TextView",
+      "label": "First Name",
+      "hint": ""
+    },
+    {
+      "type": "EditText",
+      "label": "",
+      "hint": "Enter First Name"
+    },
+    {
+      "type": "View",
+      "minHeight": 30
+    },
+    {
+      "type": "TextView",
+      "label": "Last Name",
+      "hint": ""
+    },
+    {
+      "type": "EditText",
+      "label": "",
+      "hint": "Enter Last Name"
+    },
+    {
+      "type": "View",
+      "minHeight": 30
+    },
+    {
+      "type": "TextView",
+      "label": "Address 1",
+      "hint": ""
+    },
+    {
+      "type": "EditText",
+      "label": "",
+      "hint": "Enter Address 1"
+    },
+    {
+      "type": "View",
+      "minHeight": 30
+    },
+    {
+      "type": "TextView",
+      "label": "Address 2",
+      "hint": ""
+    },
+    {
+      "type": "EditText",
+      "label": "",
+      "hint": "Enter Address 2"
+    },
+    {
+      "type": "View",
+      "minHeight": 30
+    },
+    {
+      "type": "Button",
+      "minHeight": 30,
+      "label": "Send",
+      "operation": "onClick",
+      "getField" : "4"
+    },
+    {
+      "type": "View",
+      "minHeight": 30
+    },
+    {
+      "type": "Button",
+      "minHeight": 30,
+      "label": "Show",
+      "operation": "onClick",
+      "getField" : "ALL"
+
+    }
+  ]
+}
